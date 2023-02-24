@@ -1,0 +1,60 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav ul li img {
+  width: 8rem;
+}
+header nav ul li a {
+  margin-right: 3rem;
+}
+
+.main-index {
+  background-color: pink;
+}
+.main-index .productos #carta {
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+.main-index .productos #carta .contenedor {
+  width: 15rem;
+  margin: 0.5rem;
+}
+.main-index .productos #carta .contenedor h3 {
+  margin-bottom: 0.5rem;
+}
+.main-index .productos #carta .contenedor p {
+  margin-bottom: 0.5rem;
+}
+.main-index .productos #carta .contenedor .cantidad {
+  width: 2rem;
+}
+.main-index .productos #carta .contenedor .fotoProducto {
+  margin-top: 1rem;
+  width: 15rem;
+}
+.main-index .carrito {
+  margin-top: 1rem;
+}
+.main-index .carrito h2 {
+  margin-bottom: 1rem;
+}
+.main-index .carrito .total {
+  margin-top: 1rem;
+}
+.main-index .carrito button {
+  margin-top: 0.5rem;
+}/*# sourceMappingURL=style.css.map */
