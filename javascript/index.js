@@ -54,7 +54,7 @@ function imprimirProductos(array){
     for(const elemento of array){
         let div = document.createElement("div");
         div.className = "contenedor"
-        div.innerHTML = `<img src="./img/${elemento.nombre}.jpg" alt="${elemento.nombre}" class="fotoProducto">
+        div.innerHTML = `<img src="img/${elemento.nombre}.jpg" alt="${elemento.nombre}" class="fotoProducto">
                         <h3>${elemento.nombre}</h3>
                         <p>${elemento.descripcion}</p>
                         <p>$${elemento.precio}</p>
